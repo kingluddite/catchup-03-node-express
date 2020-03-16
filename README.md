@@ -1,25 +1,23 @@
-# How to run a Node application?
+# process.argv[n]
 
-`$ node <filename>`
+## Instructions
+* Output the word "see" in the Terminal using `process.argv`
 
-## Add additional inputs
-* By providing more words after the file name
-* All inputs come in as an **array** named `process.argv`
+## Steps
+1. Create a file `app.js`
+2. Add `console.log(process.argv[4]);` as the content of `app.js`
+3. Save `app.js`
+4. Open the terminal in the location where `app.js` is located on your machine
+5. `$ node app.js did anyone see the latest star wars movie`
+6. The Terminal should output "see"
 
-## process.argv[0]
-* Is Node
-  - (or mor specifically where Node is on your machine)
+## Experiment by modifying file with:
+* `console.log(process.argv[0]);`
+* `console.log(process.argv[1]);`
+* `console.log(process.argv[5]);`
+* `console.log(process.argv[6]);`
+* What happens if you try to use `process.argv[]` on a array item that doesn't exist?
 
-## process.argv[1]
-* Is the file on your machine
-
-## Where are other inputs located?
-* Any other inputs will be in the same array as:
-  - `process.argv[2]`
-  - `process.argv[3]`
-  - `process.argv[4]`
-  - `process.argv[5]`
-  - `process.argv[6]`
-  - ...
-
-
+## What data type are these inputs?
+* strings
+    - **IMPORTANT** So remember that they need to be explicitly parsed as integers if you want to use them for math or other numeric operations
