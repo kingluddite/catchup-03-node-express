@@ -30,6 +30,10 @@ $ git checkout 01-console-log
 $ git checkout 02-argv
 $ git checkout 03-activity-01-start
 $ git checkout 04-activity-01-solution
+$ git checkout 05-get-demo
+$ git checkout 06-activity-2-start
+$ git checkout 07-activity-2-solution
+$ git checkout 08-demo-post
 ```
 
 ## Summary of Catchup
