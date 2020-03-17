@@ -4,3 +4,8 @@
 
 ## Make sure to run your Node application
 * Run the program by typing node <filename> number
+
+## Solution
+* When complete:
+
+`$ git checkout 04-activity-01-solution`
