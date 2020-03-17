@@ -2,9 +2,11 @@
 * GET routes retrieve information
 
 ## Instructions
-* Open `server1.js` to review with class
-* Install dependencies and explain what they do
-* Demo the running file and view the resulting website in the browser
+* Initialize npm
+* Install dependencies (express)
+* Create a `.gitignore` and add `node_modules`
+* Using the starter code provided, and your knowledge from class, create a new Jedi route to display a new Jedi Knight's information.
+* Run your server and make sure your new route is showing the correct data when browsing to that page in the browser
 
 ## Gotchas
 * No `package.json`? Then `$ npm init` first to create `package.json`
