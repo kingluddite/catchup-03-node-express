@@ -29,3 +29,13 @@
         * JSON Viewer Chrome Extension
 * `ctrl + c` (stop server on Mac) (PC command?)
 
+## If have enough time:
+* Alternative code and how it would function
+* `/:character` syntax is a way we have a "variable" parameter in the URL route
+  - This means that they can search for a given character using the URL and it will display in the console
+
+```
+app.get('/api/:characters?', function(req, res) {
+  var chosen = req.params.characters;
+})
+```
