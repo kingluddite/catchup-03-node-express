@@ -1,41 +1,33 @@
-# Demonstration of GET
-* GET routes retrieve information
+# Demo of POST
+* We've create a new POST route
+  - This route will take in JSON inputs then DO work with them (in this case it will save the JSON to the Database and return a JSON of the new character)
 
-## Instructions
-* Initialize npm
-* Install dependencies (express)
-* Create a `.gitignore` and add `node_modules`
-* Using the starter code provided, and your knowledge from class, create a new Jedi route to display a new Jedi Knight's information.
-* Run your server and make sure your new route is showing the correct data when browsing to that page in the browser
+## Postman
+* Does everyone have Postman installed?
+    - Postman is simply a GUI for development, and then in future opportunities we'll be using jQuery or other front-end code approaches for sending the same post requests
 
-## Gotchas
-* No `package.json`? Then `$ npm init` first to create `package.json`
-  - `$ npm init -y` vs `$ npm init`
-* What is `package-lock.json`?
-* Install dependencies (if `package.json`) with `$ npm install`
-  - `$ npm i` (shortcut!)
-* Need to install a npm module
-  - The npm website
-  - What is yarn?
-  - `$ npm i express`
-* What is `.gitignore`?
-* `$ node server1` vs `$ nodemon server1`
-* "Listening on port 3000"
-  - ports (can't run two apps on same port EVER!)
-  -`http://localhost:3000`
-    + Welcome to the Star Wars Page!
-    + Routes
-        * http://localhost:3000/darthmaul (observe data)
-        * JSON Viewer Chrome Extension
-* `ctrl + c` (stop server on Mac) (PC command?)
+## Steps in sending POST requests in Postman
+Step 1. Run your server instance.
 
-## If have enough time:
-* Alternative code and how it would function
-* `/:character` syntax is a way we have a "variable" parameter in the URL route
-  - This means that they can search for a given character using the URL and it will display in the console
+Step 2. Open Postman.
 
-```
-app.get('/api/:characters?', function(req, res) {
-  var chosen = req.params.characters;
-})
-```
+Step 3. Select POST in the drop-down next to the link. Then enter the URL of your server's POST route.
+
+Step 4. Click the button: "Body". Click the setting "Raw". Then hit the dropdown that says "Text" and click JSON.
+
+Step 5. Enter in a complete JSON. You can use:
+
+  "routeName": "darthvader",
+  "name": "Darth Vader",
+  "role": "Sith Lord",
+  "age": 42,
+  "forcePoints": 1900
+}
+Step 6. Hit "Send"
+
+Step 7. Now check back to your Star Wars API to confirm that Postman received the request body.
+
+## Last Activity
+Use Postman to send a POST request to the server and confirm that your character has been added to the Database correctly
+
+
