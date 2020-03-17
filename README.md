@@ -1,19 +1,29 @@
-# Activity 1
-## Instructions:
-* Create an application in node that generates a random number between 1 and 10 and outputs "you win" if the user input number is equal to the random number.
+# Demonstration of GET
+* GET routes retrieve information
 
-## Make sure to run your Node application
-* Run the program by typing node <filename> number
+## Instructions
+* Open `server1.js` to review with class
+* Install dependencies and explain what they do
+* Demo the running file and view the resulting website in the browser
 
-## When complete open these notes from last week
-* the [Client & Server / Express Review](https://docs.google.com/presentation/d/1TN5dbhmq21Ph6NWQVB3uAZio0CQwnVn-4IirUJ-0_A4/edit#slide=id.g61d7148e80_0_2087)
-* Let's go over them one more time
+## Gotchas
+* No `package.json`? Then `$ npm init` first to create `package.json`
+  - `$ npm init -y` vs `$ npm init`
+* What is `package-lock.json`?
+* Install dependencies (if `package.json`) with `$ npm install`
+  - `$ npm i` (shortcut!)
+* Need to install a npm module
+  - The npm website
+  - What is yarn?
+  - `$ npm i express`
+* What is `.gitignore`?
+* `$ node server1` vs `$ nodemon server1`
+* "Listening on port 3000"
+  - ports (can't run two apps on same port EVER!)
+  -`http://localhost:3000`
+    + Welcome to the Star Wars Page!
+    + Routes
+        * http://localhost:3000/darthmaul (observe data)
+        * JSON Viewer Chrome Extension
+* `ctrl + c` (stop server on Mac) (PC command?)
 
-## NYT Scraper App website
-### How the site works
-* The site lets users retrieve articles from the New York Times and store them in a "saved" list
-* Review and discuss the concept of GET and POST routes
-  - Note: We'll be able to use AJAX and JQuery to make both these types of communication!
-
-## Next
-`$ git checkout 05-get-demo`
