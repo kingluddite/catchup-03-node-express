@@ -1,6 +1,9 @@
 # Catchup #3: Node and Express
 
 ## Instructions
+### View the slides for today's presentation
+[URL to slideshow](https://catchup-03-node-express.netlify.app/)
+
 ### Clone to your computer
 * **note** The `$` below means "Type this in the Terminal". When writing the following Terminal commands, ignore the `$` and type the rest. You will see people represent the Terminal on sites like Stackoverflow with the `$`. Repeat. You don't need to type the `$`. (Don't confuse this `$` with the `$` from jQuery)
 
