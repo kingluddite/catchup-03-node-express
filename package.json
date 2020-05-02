@@ -1,0 +1,26 @@
+{
+  "name": "catchup-3-node-express-exercises",
+  "version": "1.0.0",
+  "description": "* GET routes retrieve information",
+  "main": "server1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingluddite/catchup-3-node-express-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingluddite/catchup-3-node-express-exercises/issues"
+  },
+  "homepage": "https://github.com/kingluddite/catchup-3-node-express-exercises#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
